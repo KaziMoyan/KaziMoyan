@@ -5,6 +5,7 @@ I am Moyan student of Daffodil International University Department of software e
 ![Kazi Moyan's GitHub stats](https://github-readme-stats.vercel.app/api?username=KaziMoyan&theme=dark&show_icons=true)
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,8 @@ I am Moyan student of Daffodil International University Department of software e
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
         }
 
         header {
@@ -58,6 +61,12 @@ I am Moyan student of Daffodil International University Department of software e
             width: 100%;
             bottom: 0;
         }
+
+        .github-stats {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -74,7 +83,11 @@ I am Moyan student of Daffodil International University Department of software e
     <main>
         <section id="about">
             <h2>About Me</h2>
+            <p>Hi there 👋</p>
             <p>I am Moyan, a student of Daffodil International University, Department of Software Engineering.</p>
+            <div class="github-stats">
+                <img src="https://github-readme-stats.vercel.app/api?username=KaziMoyan&theme=dark&show_icons=true" alt="Kazi Moyan's GitHub stats">
+            </div>
         </section>
         <section id="projects">
             <h2>Projects</h2>
@@ -87,7 +100,7 @@ I am Moyan student of Daffodil International University Department of software e
         <section id="contact">
             <h2>Contact</h2>
             <p>Phone: 01602385010<br>
-            Email: moyeenkazi03@gmail.com</p>
+            Email: <a href="mailto:moyeenkazi03@gmail.com">moyeenkazi03@gmail.com</a></p>
         </section>
     </main>
     <footer>
@@ -95,4 +108,3 @@ I am Moyan student of Daffodil International University Department of software e
     </footer>
 </body>
 </html>
-
